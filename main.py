@@ -7,6 +7,6 @@ async def root():
     return {"message": "Hello World"}
 
 
-@app.get("/testandodenovo")
+@app.get("/funcaoteste")
 async def funcaoteste():
     return {"teste": "tentando testar endpoint"}
