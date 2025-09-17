@@ -1,9 +1,11 @@
 name: Continuous Delivery
 
-on: 
-  pull_request:
+on:
+  push:
     branches:
-      - main  # ou a branch que você deseja monitorar
+      - main
+      - discord-entegration2
+
 
 jobs:
   deliver:
