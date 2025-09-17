@@ -1,6 +1,6 @@
-nome: Discord
+name: Discord
 on: 
-  -push
+  pull_request:
 
 jobs:
   discord:
