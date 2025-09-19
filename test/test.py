@@ -1,4 +1,5 @@
-from src.main import *
+from src.main import Estudante, root, funcaoteste, create_estudante, update_estudante, delete_estudante
+
 from unittest.mock import patch
 
 
