@@ -18,7 +18,7 @@ def test_funcao_teste():
     assert result == {"teste": True, "num_aleatorio": 12345}
 
 
-def test_create_estudante(estudante: Estudante):
+def test_create_estudante():
     estudante_teste = Estudante(name="Fulano", curso="Curso 1", ativo=False)
     result = create_estudante(estudante_teste)
     yield result 
